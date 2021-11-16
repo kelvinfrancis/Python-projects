@@ -13,8 +13,8 @@ promedioTest = (preguntasCorrectas/preguntasRealizadas)*100
 
 if promedioTest >=90:
     print("Nivel máximo")
-elif 75 <=promedioTest<90:
+elif promedioTest>=75:
     print("Nivel medio")
-elif 50 <=promedioTest<75:
+elif promedioTest>=50:
     print("Nivel regular")
 else: print("Fuera de nivel")
