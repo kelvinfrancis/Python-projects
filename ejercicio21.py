@@ -7,3 +7,5 @@ year = int(input("Ingrese el año: "))
 
 if mes == 12 and dia == 25:
     print("Es navidad.!")
+else:
+    print("No es navidad.")
