@@ -5,3 +5,7 @@ num1 = int(input("Ingrese el primer numero: "))
 num2 = int(input("Ingrese el segundo numero: "))
 num3 = int(input("Ingrese el tercer numero: "))
 
+if (num1 and num2 and num3) < 10:
+    print("Todos los numeros ingresados son menores de diez")
+else:
+    print("Son mayores o igual a 10")
