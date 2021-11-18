@@ -5,3 +5,4 @@
 # b)Si el sueldo es inferior a 500 pero su antigüedad es menor a 10 años, otorgarle un aumento de 5 %.
 # c) Si el sueldo es mayor o igual a 500 mostrar el sueldo en pantalla sin cambios
 
+#https://www.tutorialesprogramacionya.com/pythonya/detalleconcepto.php?punto=8&codigo=8&inicio=0
