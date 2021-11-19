@@ -11,3 +11,14 @@
 sueldo = int(input("Ingrese su sueldo: "))
 tiempo = int(input("Ingrese los años trabajados: "))
 
+if sueldo<500 and tiempo>=10:
+    aumento = (sueldo*0.2) + sueldo
+    print("El sueldo a pagar es: ")
+    print(aumento)
+elif sueldo<500 and tiempo<10:
+    aumento = (sueldo*0.05) + sueldo
+    print("El sueldo a pagar es: ")
+    print(aumento)
+elif sueldo>=500:
+    print("El sueldo no se le otorga aumento: ")
+    print(sueldo)
