@@ -7,8 +7,9 @@ v1 = int(input("Ingrese el primer valor: "))
 v2 = int(input("Ingrese el segundo valor: "))
 v3 = int(input("Ingrese el tercer valor: "))
 
-
-if v1>v2 and v2>v3:
+if v1==v2 and v2==v3:
+    print("Los tres valores son iguales.")
+elif v1>v2 and v2>v3:
     print("El valor mayor es: "), print(v1)
     print("El valor menor es: "), print(v3)
 elif v1>v3 and v2<v3: 
