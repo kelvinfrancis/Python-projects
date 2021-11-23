@@ -8,3 +8,21 @@ v2 = int(input("Ingrese el segundo valor: "))
 v3 = int(input("Ingrese el tercer valor: "))
 
 
+if v1>v2 and v2>v3:
+    print("El valor mayor es: "), print(v1)
+    print("El valor menor es: "), print(v3)
+elif v1>v3 and v2<v3: 
+    print("El valor mayor es: "), print(v1)
+    print("El valor menor es: "), print(v2)
+elif v2>v1 and v1>v3:
+    print("El valor mayor es: "), print(v2)
+    print("El valor menor es: "), print(v3)
+elif v2>v3 and v1<v3:
+    print("El valor mayor es: "), print(v2)
+    print("El valor menor es: "), print(v1)
+elif v3>v1 and v1>v2:
+    print("El valor mayor es: "), print(v3)
+    print("El valor menor es: "), print(v2)
+elif v3>v2 and v1<v2:
+    print("El valor mayor es: "), print(v3)
+    print("El valor menor es: "), print(v1)
