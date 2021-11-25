@@ -9,7 +9,8 @@ n=int(input("Ingrese la cantidad de piezas que desea ingresar: "))
 
 while x<=n:
     longitudPieza = float(input("Ingrese la longitud de la pieza: "))
+    if 1.20<longitudPieza<1.30:
+        cantidad = cantidad+1
     x=x+1
-if 1.20<longitudPieza<1.30:
-    print("Las piezas con las longitudes correctas son:")
-    print(longitudPieza)
+print("La cantidad de piezas aptas que hay en el lote son: ")
+print(cantidad)
