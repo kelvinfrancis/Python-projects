@@ -6,7 +6,7 @@
 
 x=1
 n=int(input("Ingrese la cantidad de piezas que desea ingresar: "))
-
+cantidad=0
 while x<=n:
     longitudPieza = float(input("Ingrese la longitud de la pieza: "))
     if 1.20<longitudPieza<1.30:
