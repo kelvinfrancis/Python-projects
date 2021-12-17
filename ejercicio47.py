@@ -2,3 +2,9 @@
 # y la altura de un triángulo. El programa deberá informar:
 # a) De cada triángulo la medida de su base, su altura y su superficie.
 # b) La cantidad de triángulos cuya superficie es mayor a 12.
+
+n = int(input("Ingrese la cantidad de triangulos: "))
+x=0
+
+for x in range(n):
+    
