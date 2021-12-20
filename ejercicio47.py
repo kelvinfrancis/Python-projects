@@ -11,8 +11,9 @@ for x in range(n):
     base = float(input("Ingrese la base del triangulo: "))
     altura = float(input("Ingrese la altura del triangulo: "))
     superficie = base*altura
-    print("Triangulo ",c,"Base: ",base," Altura: ",altura," Superficie: ",superficie)
+    print("Triangulo",c,"> Base:",base," Altura:",altura," Superficie:",superficie)
     x=x+1
+    c=c+1
     if superficie >12:
         superficiemayor=superficiemayor+1
     
