@@ -3,9 +3,12 @@
 
 n=0
 x=1
-num=int(input("Ingrese un numero del 1 al 10"))
-# while 0<num or num>10:
-for n in range(12):
-    multi=num*x
-    print(num," x ",x," = ",num)
-    x=x+1
+num=int(input("Ingrese un numero del 1 al 10: "))
+while num<0 or num>10:
+    num=int(input("Debe ingresar un numero entre 1 y 10: "))
+else:
+    print("Tabla de multiplicacion del numero", num)
+    for n in range(12):
+        multi=num*x
+        print(num,"x",x," = ",multi)
+        x=x+1
