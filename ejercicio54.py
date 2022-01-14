@@ -6,3 +6,20 @@
 #a) Obtener el promedio de las edades de cada turno (tres promedios)
 #b) Imprimir dichos promedios (promedio de cada turno)
 #c) Mostrar por pantalla un mensaje que indique cual de los tres turnos tiene un promedio de edades mayor.
+
+
+n=0
+x=1
+
+for n in range(5): #mañana
+    edadM=int(input("Ingrese la edad del estudiante: "))
+    sumaM=sumaM+edadM
+    
+    for n in range(6): #tarde
+        edadT=int(input("Ingrese la edad del estudiante: "))
+        sumaT=sumaT+edadT
+        
+        for n in range(11): #noche
+            edadN=int(input("Ingrese la edad del estudiante: "))
+            sumaN=sumaN+edadN
+            x=x+1
