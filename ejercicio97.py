@@ -2,4 +2,9 @@
  Cada elemento debe ser una lista, la primera lista tiene que tener un elemento, la segunda dos elementos, 
  la tercera tres elementos y así sucesivamente. Sumar todos los valores de las listas."""
 
- 
+lista=[[1],[1,2],[1,2,3],[1,2,3,4],[1,2,3,4,5]]
+suma=0
+for x in range(len(lista)):
+    for k in range(len(lista[x])):
+        suma=suma+lista[x][k]
+print("Suma total es:",suma)
