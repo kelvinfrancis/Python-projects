@@ -6,18 +6,24 @@ También imprimir solo el nombre del padre y la cantidad de hijos que tiene dich
 
 padres=[]
 hijos=[]
-for x in range(3):
-    padres.append([])
+for k in range(3):
+    pa=input("Ingrese el nombre del padre:")
+    ma=input("Ingrese el nombre del la madre:")
+    padres.append([pa,ma])
+    cant=int(input("Ingrese la cantidad de hijos:"))
     hijos.append([])
-    for k in range(3):
-        papa=input("Ingrese el nombre del padre: ")
-        mama=input("Ingrese el nombre de la madre: ")
-        sons=input("Ingrese los nombres de los hijos. Si no tienen, escribir -ninguno-: ")
-        padres[x].append(papa,mama)
-        hijos[x].append(sons)
-for x in range(len(padres)):
-    print("Lista de padres e hijos:")
-    print(padres[x],hijos[x])
+    for x in range(cant):
+        nom=input("Ingrese el nombre del hijo:")
+        hijos[k].append(nom)
 
+print("Listado del padre, madre e hijos")
+for k in range(3):
+    print("Padre:",padres[k][0])
+    print("Madre:",padres[k][1])
+    for x in range(len(hijos[k])):
+        print("Hijos:",hijos[k][x])
 
-
+print("Listado del padre y cantidad de hijos que tiene")
+for x in range(3):
+    print("padre:",padres[x][0])
+    print("Cantidad de hijos:",len(hijos[x]))
