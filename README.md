@@ -1,2 +1,2 @@
-# Proyectos-PYTHON-
-Lista de ejercicios variados con el lenguaje PYTHON.
+Lista variada de ejercicios y proyectos en lenguaje python
+
